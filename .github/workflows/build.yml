@@ -1,0 +1,28 @@
+name: Update router lists
+on:
+  push:
+    branches: [main]
+    paths: [domains.txt, subnets.txt, build.py, .github/workflows/build.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: router-lists-main
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Validate and generate rule sets
+        run: python3 build.py
+      - name: Publish generated rule sets
+        run: |
+          if git diff --quiet -- domains.json subnets.json; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add domains.json subnets.json
+          git commit -m 'Update generated router lists [skip ci]'
+          git push origin HEAD:main
