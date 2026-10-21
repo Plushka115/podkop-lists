@@ -24,6 +24,8 @@ def entries(filename):
         result.add(value)
     if not result:
         raise ValueError(f'{filename}: list must not be empty')
+    if filename == 'domains.txt':
+        result = {domain for domain in result if not any('.'.join(domain.split('.')[i:]) in result for i in range(1, len(domain.split('.'))))}
     return sorted(result)
 
 
