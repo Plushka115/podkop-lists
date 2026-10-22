@@ -53,6 +53,7 @@ rulez.sk
 saksfifthavenue.com
 sonarr.tv
 spamhaus.org
+store.akamai.steamstatic.com
 tavily.com
 tb.pro
 teamspeak-services.com
