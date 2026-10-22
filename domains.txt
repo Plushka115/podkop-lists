@@ -8,6 +8,7 @@ bigbrain.gg
 brave.com
 camoufox.com
 ccusage.com
+cdn.akamai.steamstatic.com
 cinsscore.com
 claude.ai
 codex-reset.com
@@ -51,6 +52,7 @@ radarr.video
 readme.io
 rulez.sk
 saksfifthavenue.com
+shared.akamai.steamstatic.com
 sonarr.tv
 spamhaus.org
 store.akamai.steamstatic.com
