@@ -35,6 +35,7 @@ greensnow.co
 gstatic.com
 haveibeenpwned.com
 iamparadox.dev
+isc.org
 lovecraftgame.com
 maintainerr.info
 maptap.gg
