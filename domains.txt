@@ -48,6 +48,7 @@ openfront.io
 orcaslicer.com
 parallel.ai
 paxhistoria.co
+plane.so
 pragmaengine.com
 promptbook.gg
 radarr.video
@@ -68,5 +69,6 @@ tmdb.org
 tr.anidub.com
 tracklock.gg
 turris.cz
+vikunja.io
 vivox.com
 xrmpe.online
