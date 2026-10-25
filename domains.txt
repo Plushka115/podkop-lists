@@ -4,6 +4,7 @@ agentmail.to
 ai.google.dev
 anthropic.com
 anybrain.gg
+awtrix.de
 bigbrain.gg
 brave.com
 camoufox.com
