@@ -74,3 +74,4 @@ vikunja.io
 vivox.com
 www.cantonfair.org.cn
 xrmpe.online
+registry.npmjs.org
