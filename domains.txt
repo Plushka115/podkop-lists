@@ -77,3 +77,5 @@ xrmpe.online
 registry.npmjs.org
 moonlight-stream.org
 t3.codes
+
+huggingface.co
