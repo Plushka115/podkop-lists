@@ -81,4 +81,5 @@ registry.npmjs.org
 moonlight-stream.org
 t3.codes
 
+highwayhesi.com
 huggingface.co
